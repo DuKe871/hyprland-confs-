@@ -1,0 +1,33 @@
+import = [
+  "/usr/lib/node_modules/alacritty-themes/themes/coolnight.toml"
+]
+
+[cursor.style]
+shape = "Beam"
+
+[font]
+size = 15
+
+  [font.bold]
+  family = "DejaVu Sans Mono"
+  style = "Bold"
+
+  [font.italic]
+  family = "DejaVu Sans Mono"
+  style = "Italic"
+
+  [font.normal]
+  family = "DejaVu Sans Mono"
+  style = "Regular"
+
+[window]
+opacity = 0.8
+blur = true
+decorations = "Buttonless"
+
+  [window.padding]
+  x = 10
+  y = 10
+
+[env]
+TERM = "xterm-256color"
